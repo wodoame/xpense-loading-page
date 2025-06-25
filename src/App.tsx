@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import LoadingPage from './loadingPage'
 
-const PROD_BASE_URL = 'http://expense-tracking-application.onrender.com'
+const PROD_BASE_URL = 'https://expense-tracking-application.onrender.com'
 // const DEV_BASE_URL = 'http://localhost:8000'
 async function checkStatus(setReady: (ready:boolean)=>void) {
   try {
